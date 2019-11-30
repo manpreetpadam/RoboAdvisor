@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "schemaVersion": "1.0",
+    "importType": "LEX",
+    "importFormat": "JSON"
+  },
+  "resource": {
+    "description": "Available Risk Levels",
+    "name": "RiskLevel",
+    "version": "2",
+    "enumerationValues": [
+      {
+        "value": "High",
+        "synonyms": [
+          "High"
+        ]
+      },
+      {
+        "value": "Very Low",
+        "synonyms": [
+          "Very Low"
+        ]
+      },
+      {
+        "value": "Low",
+        "synonyms": [
+          "Low"
+        ]
+      },
+      {
+        "value": "Very High",
+        "synonyms": [
+          "Very High"
+        ]
+      },
+      {
+        "value": "Medium",
+        "synonyms": [
+          "Medium"
+        ]
+      },
+      {
+        "value": "None",
+        "synonyms": [
+          "None"
+        ]
+      }
+    ],
+    "valueSelectionStrategy": "TOP_RESOLUTION"
+  }
+}
